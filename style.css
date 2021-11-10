@@ -48,8 +48,8 @@ color: red;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  top: 220px;
-  left: 45%;
+  top: 500px;
+  left: 25%;
 }
 
 .button-1:hover,
@@ -64,5 +64,10 @@ div{
   color: black;
 }
 
+.small
+{
+font-weight: 32px;
 
+
+}
 
